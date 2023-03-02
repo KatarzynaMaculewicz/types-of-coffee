@@ -1,0 +1,27 @@
+.article {
+      padding-top: 7%;
+      max-width: 80%;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 28px;
+}
+
+.article__header {
+      border: 2px solid currentColor;
+      border-bottom: none;
+      border-radius: 20px 20px 0 0;
+      padding: 10px;
+}
+
+.article__photo {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 2%;
+      border: 2px solid rgb(88, 61, 41);
+      outline: 3px solid white;
+      outline-offset: -5px;
+}
+
+.article__foreign {
+      font-style: normal;
+}

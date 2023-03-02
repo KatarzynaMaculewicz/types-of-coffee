@@ -1,0 +1,23 @@
+html {
+      box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+      box-sizing: inherit;
+}
+
+.body {
+      font-family: Montserrat, Helvetica, sans-serif;
+      color: rgb(88, 61, 41);
+}
+
+.tableContainer {
+      overflow-x: auto;
+}
+
+.body--dark { 
+      background-color: rgb(132, 110, 97);
+      color: #f9f4ef;
+}

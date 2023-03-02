@@ -1,0 +1,36 @@
+.header__button {
+      padding: 5px;
+      margin: 5px;
+      font-size: 12px;
+      color: currentColor;
+      background-color: transparent;
+      border: 1px solid currentColor;
+      border-radius: 10px;
+}
+
+.header__button:hover {
+      box-shadow: 0px 2px 5px 0px #0000004b;
+}
+
+.header__button:active {
+      box-shadow: inset 2px 2px 5px 0px #0000004b;
+}
+
+.header__title {
+      max-width: 80%;
+      text-align: left;
+      color: #e0c5ab;
+      background-color: rgb(62 53 48);
+      box-shadow: 0px 15px 15px -7px #0000004b;
+      padding: 20px;
+      margin: 0 auto;
+      margin-top: -10px;
+      border: 2px solid crgb(62 53 48);
+      border-radius: 0 0 20px 20px;
+}
+
+.header__photo {
+      width: 100%;
+      margin: 0 auto;
+      box-shadow: 0px 15px 15px -7px #0000004b;
+}
